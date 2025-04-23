@@ -12,14 +12,14 @@ COMMS TECHNOLOGIES is a cutting-edge company specializing in Artificial Intellig
 
 **Meet the Team**
 Management Team
-1. Chief Executive Officer (CEO): Ethan Kim
-2. Chief Technology Officer (CTO): Rachel Lee
-3. Chief Information Security Officer (CISO): Michael Patel
-4. Chief Design Officer (CDO): Emily Chen
-5. Chief Operating Officer (COO): David Kim
-6. Chief Marketing Officer (CMO): Sophia Rodriguez
-7. Technical Lead: Julian Styles
-8. Project Manager: Olivia Brown
+1. Chief Executive Officer (CEO): monica	mukanda	mukandamonica1@gmail.com
+2. Chief Technology Officer (CTO): toluwani	osho	toluwaniosho18@gmail.com
+3. Chief Information Security Officer (CISO): derrick	muchoki	prollyspikes@gmail.com
+4. Chief Design Officer (CDO): boitumelo	monyebodi	happinessboitumelo101@gmail.com
+5. Chief Operating Officer (COO): noraldine	okola	alusonoraldine@gmail.com
+6. Chief Marketing Officer (CMO): agnes	mutiso	aggiemutete48@gmail.com
+7. Technical Lead: symon	muka	symonmuka4@gmail.com
+8. Project Manager: benjamin	odhiambo	nehemiahbenjamin7@gmail.com
 
 **Project Overview**
 This project aims to create a responsive website for COMMS TECHNOLOGIES, showcasing our services, expertise, and company culture. The website will be designed with a focus on user experience, accessibility, and search engine optimization (SEO).
