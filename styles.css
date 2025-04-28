@@ -1,0 +1,308 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: darkslategray ;
+    transition: background-color 0.3s ease;
+  }
+  
+  header {
+    background-color: #333333;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center; /* Align logo and text vertically */
+    gap: 15px; /* Add space between the logo and the text */
+  }
+
+  .logo {
+    width: 50px; /* Adjust the size of the logo */
+    height: auto;
+    margin-top: 0; /* Remove unnecessary margin */
+  }
+
+  header h1 {
+    margin: 0; /* Remove the left margin */
+    font-size: 2.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(164, 9, 9, 0.5);
+    letter-spacing: 2px;
+    color: #fff;
+  }
+
+
+
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    transition: cubic-bezier(0.39, 0.575, 0.565, 1) 0.3s;
+}
+  
+  .navlist {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+    
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+.hero {
+    background-image: linear-gradient(to bottom, #333, #555);
+    background-size: 100% 300px;
+    background-position: 0% 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+  
+.container {
+    margin: 10px auto;
+    padding: 2px;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.main-content {
+    justify-content: space-between;
+    
+
+    
+     
+}
+
+section {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    color: #f9f9f9;
+    background-color: #153518;
+    flex: 1 1 calc(33.33% - 20px);
+    flex-wrap: wrap;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.staff-introduction-container {
+justify-content: space-between;
+}
+
+.staff-boxes {
+    color: black;
+    border-radius: 8px;
+    transition: transform 0.2s;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.staff-box {
+    width: calc(29% - 20px);
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(222, 218, 218);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(25% - 20px);
+}
+
+.staff-section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.staff-box:hover {
+    transform: scale(1.05);
+}
+
+.staff-box h3 {
+    margin: 10px 0;
+}
+
+.staff-box p {
+    margin: 5px 0;
+}
+
+.staff-image {
+    width: 30%;
+    height: auto;
+    margin-bottom: 10px;
+    float: right;
+}
+  
+h2 {
+    margin-top: 0;
+}
+
+.services-container {
+    background-image: url('images/pexels-markusspiske-1089438.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    zoom: 1.1;
+    color: #f9f9f9 ;
+  
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #050505;
+}
+
+.card {
+    width: calc(33.33% - 20px);
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(222, 218, 218);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode-toggle {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode-toggle .header-container {
+    background-color: #555;
+}
+
+.dark-mode-toggle .section {
+    background-color: #444;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.dark-mode-toggle .card {
+    background-color: #555;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.dark-mode-toggle {
+    top: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dark-mode-toggle:hover {
+    background-color: #555;
+}
+
+
+/* Extra Large Screens (1600px and above) */
+@media (min-width: 1600px) {
+    /* Add styles for extra large screens here */
+    .container {
+      max-width: 1400px;
+    }
+  }
+  
+  /* Large Screens (1200px to 1599px) */
+  @media (max-width: 1599px) and (min-width: 1200px) {
+    /* Add styles for large screens here */
+    .container {
+      max-width: 1100px;
+    }
+  }
+  
+  /* Medium Large Screens (992px to 1199px) */
+  @media (max-width: 1199px) and (min-width: 992px) {
+    /* Add styles for medium large screens here */
+    .container {
+      max-width: 900px;
+    }
+  }
+  
+  /* Medium Screens (768px to 991px) */
+  @media (max-width: 991px) and (min-width: 768px) {
+    /* Add styles for medium screens here */
+    .container {
+      max-width: 700px;
+    }
+    .cards {
+      flex-direction: column;
+    }
+    .card {
+      width: 100%;
+      margin: 20px 0;
+    }
+  }
+  
+/* Small Screens (576px to 767px) */
+@media (max-width: 767px) and (min-width: 576px) {
+    /* Add styles for small screens here */
+    .container {
+      max-width: 500px;
+    }
+    header {
+      padding: 10px;
+    }
+    nav ul {
+      flex-direction: column;
+    }
+    nav li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    .staff-box {
+        flex: 1 1 calc(50% - 20px);
+    }
+  }
+  
+  /* Extra Small Screens (480px to 575px) */
+  @media (max-width: 575px) and (min-width: 480px) {
+    /* Add styles for extra small screens here */
+    .container {
+      max-width: 400px;
+    }
+    section {
+      padding: 10px;
+    }
+    .staff-box {
+        flex: 1 1 100%;
+    }
+  }
+  
+/* Mobile Screens (320px to 479px) */
+@media (max-width: 479px) and (min-width: 320px) {
+    /* Add styles for mobile screens here */
+    .container {
+      max-width: 300px;
+    }
+    header {
+      padding: 5px;
+    }
+    nav ul {
+      padding: 0;
+    }
+  }
+  
+  /* Small Mobile Screens (max-width: 319px) */
+  @media (max-width: 319px) {
+    /* Add styles for small mobile screens here */
+    .container {
+      max-width: 250px;
+    }
+  }
