@@ -9,10 +9,11 @@ This project is a step-by-step recreation of a personal portfolio website using 
 1.  monica	mukanda	mukandamonica1@gmail.com
 2. toluwani	osho	toluwaniosho18@gmail.com
 4. derrick	mprollyspikes@gmail.com
-5. Chief Design Officer (CDO): boitumelo	monyebodi	happinessboitumelo101@gmail.com
-6. noraldine	okola	alusonoraldine@gmail.com
-7. agnes	mutiso	aggiemutete48@gmail.com
-   8. symon	muka	symonmuka4@gmail.com
+5.  boitumelo	monyebodi	happinessboitumelo101@gmail.com
+7. noraldine	okola	alusonoraldine@gmail.com
+8. agnes	mutiso	aggiemutete48@gmail.com
+9. 
+   9. symon	muka	symonmuka4@gmail.com
 10. benjamin	odhiambo	nehemiahbenjamin7@gmail.com
 
 **Features**
